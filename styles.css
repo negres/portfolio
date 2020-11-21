@@ -49,7 +49,7 @@ body {
   color: white;
 }
 
-/* CONTENT */
+/* CONTENT WEB */
 
 .content {
   margin-left: 300px;
@@ -61,10 +61,53 @@ body {
 .home-page {
   height: 100vh;
   text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+    
+}
+
+.header img {
+  width: 350px;
+  border-radius: 50%;
+  border: 5px solid #e63946;
 }
 
 .header h1 {
   font-family: 'Roboto', sans-serif;
+  color: #e63946;
+
+  padding: 10px 0;
+}
+
+.header p {
+  color: #e63946;
+}
+
+.social-links {
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  
+}
+
+.social-links a {
+  background: #e63946;
+  padding: 20px;
+  border-radius: 50%;
+  color: #f1f1f5;
+
+  font-size: 32px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
 }
 
 
@@ -101,11 +144,68 @@ body {
     text-align: center;
   }
 
-  div.content {
+  /* CONTENT */
+
+  .content {
     margin-left: 0; 
     margin-top: 60px;
     padding: 30px 20px;
   }
+
+  /* HOME PAGE */
+  .home-page {
+    height: 100vh;
+    text-align: center;
+  
+    display: block;
+  }
+
+  .header img {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #e63946;
+  }
+
+  .header h1 {
+    font-size: 3.8rem;
+    padding: 10px 0;
+  }
+
+  .header p {
+    font-size: 1.8rem;
+    padding: 0 0 20px;
+  }
+
+  .social-links {
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+  }
+
+  .social-links a {
+    background: #e63946;
+    padding: 14px;
+    border-radius: 50%;
+    color: #f1f1f5;
+
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+  }
+
+  /* ABOUT PAGE */
+
+
+
+  /* SKILLS */
  
 }
 
@@ -127,6 +227,8 @@ body {
 
   .content {
     margin-left: 0;
+
+    height: 100vh;
   }
 
   .home-page {
