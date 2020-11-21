@@ -13,6 +13,7 @@ body {
   font-size: 62.5%;
 }
 
+
 /* SIDEBAR FIXED */
 
 .sidebar {
@@ -23,7 +24,6 @@ body {
   position: fixed;
   height: 100%;
   overflow: auto;
-
 }
 
 .align {
@@ -51,6 +51,9 @@ body {
 }
 
 /* CONTENT WEB */
+
+
+/* DARK MODE */
 
 .content {
   margin-left: 300px;
